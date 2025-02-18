@@ -1,0 +1,61 @@
+@media screen and (min-width: 1000px) {
+    .indicacao{
+        height: 600px;
+        font-size: 20px;
+    }
+    .descricao{
+        width: 50%;
+    }
+    .botao{
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 50px;
+    }
+
+    header nav a{
+        font-size: 20px;
+    }
+
+    header nav a:hover{
+        padding: 8px;
+    }
+
+    .sub-titulo{
+        font-size: 25px;
+    }
+
+    #gif1{
+        display: block;
+        margin-right: 15px;
+    }
+
+}
+@media screen and (max-width: 650px) {
+   
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    header .nav-bar{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #gif2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .indicacao{
+        font-size: 15px;
+    }
+
+    header nav a{
+        font-size: 10px;
+    }
+    
+}
+
