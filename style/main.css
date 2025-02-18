@@ -1,0 +1,109 @@
+:root{
+    --bege: #e3dfba;
+    --bege-verde: #c8d6bf;
+    --verde-azul: #93ccc6;
+    --verde-agua: #6cbdb5;
+    --preto: #1a1f1e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: "Nova Flat", serif;
+    
+}
+
+header .container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color: var(--verde-agua);
+    margin-left: 15px;
+    font-family: "Press Start 2P", serif;
+}
+
+header nav a{
+    color: var(--bege);
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all .4s ease;
+    
+}
+
+header nav a:hover{
+    color: var(--preto);
+    background: var(--verde-azul);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.indicacao{
+    margin-top: 15px;
+    background: linear-gradient(rgba(26, 31, 30, .5),rgba(26, 31, 30, .50),rgba(26, 31, 30,.50)100%), url('/img/backprincipal.webp');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container{
+    margin-left: 15px;
+    color: var(--bege);
+}
+
+.indicacao .titulo{
+    color: var(--bege);
+    margin-bottom: 15px;
+}
+
+.indicacao .descricao{
+    color: var(--bege);
+}
+
+.indicacao{
+    margin-bottom: 35px;
+}
+
+.botoes{
+    margin-top: 5%;
+}
+.botao a{
+    text-decoration: none;
+    
+}
+.botao a:visited{
+    color: var(--bege-verde);
+}
+.botoes button{
+    color: var(--bege-verde);
+    background: rgba(26, 31, 30,.30);
+    border: none;
+    cursor: pointer ;
+    padding: 15px;
+    border-radius: 2px;
+    transition: all .4s ease;
+}
+.botoes .icone{
+    margin-right: 10px;
+}
+
+.botoes button:hover{
+    background: rgba(26, 31, 30,.70);
+}
+
+.container .sub-titulo{
+    margin-bottom: 15px;
+}
+
+
